@@ -1,0 +1,318 @@
+/******** Base styles for my portfolio****/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#00394d;
+}
+
+#work {
+    height: 1850px;
+}
+
+#about {
+    height: 650px;
+}
+
+#contact {
+    height: 400px;
+}
+
+
+/*********** Grid ***********/
+
+.full-width {
+    width: 1200px;
+    margin:0 auto;
+
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+    
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+    
+}
+
+/************* Header **************/
+
+header {
+    height:800px;
+    background: url('..//img/hero-image.png');
+    background-size: cover;
+}
+
+.nilma {
+     /*font-family: 'Galada', cursive;*/
+     position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #00394d;
+    text-shadow: 3px 3px 0px #e7eef2, 8px 8px 0px rgba(0,0,0,0.1);
+    line-height:20px;
+    font-weight: 700;
+
+}
+header h1 {
+    padding:30px 0 0 0;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+
+    
+}
+
+.web-dev {
+    /*font-family: 'Galada', cursive;*/
+     text-transform: uppercase;
+    color: #f2395a;
+    line-height:100px;
+    -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+             transform: skew(-5deg, -5deg) rotate(5deg);
+     -webkit-transform-origin: center center;
+             transform-origin: center center;
+     text-shadow: 1px 1px #d10e31,
+                  2px 2px #d10e31,
+                  3px 3px #d10e31,
+                  4px 4px #d10e31,
+                  5px 5px #d10e31,
+                  6px 6px #d10e31,
+                  7px 7px #d10e31,
+                  8px 8px #890920,
+                  9px 9px #890920,
+                  10px 10px #890920,
+                  11px 11px 15px rgba(0,0,0,0.5);
+
+}
+
+header h2{
+    font-size: 56px;
+    padding: 150px 0 0 200px;
+    text-align:left;
+    color: #f2395a;
+    margin-bottom:0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+#h2-title {
+    clear:both;
+    width: 1200px;
+}
+
+
+header p {
+    font-size: 24px;
+    line-height: 45px;
+    text-align: left;
+    color: #00394d;
+    margin:30px;
+    padding-left: 200px;
+
+}
+
+
+nav {
+    float: right;
+    padding: 20px 40px 0 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 0 0 20px;
+    
+}
+
+nav ul li a {
+	font-size: 20px;
+	padding: 20px;
+	text-decoration: none;
+    text-transform: uppercase;
+    color: #00394d;
+
+    
+}
+
+
+/********** Work Section ***************/
+
+#work .half-width {
+    height: 355px;
+    padding: 0 0 85px 0;
+    margin:0;
+}
+
+
+#work p, h2, h4 {
+    text-align: center;
+    color: #00394d;  
+}
+
+#work h2 {
+    padding: 35px 0 55px 0;
+    font-size: 24px;
+    color:#00394d;
+    font-family: 'Roboto Slab', serif;
+}
+
+#work p {
+    line-height: 33px;
+    font-size: 22px;
+    padding:4px;
+}
+
+#work h4 { 
+    font-size:20px;
+    padding: 35px 0 0 0;
+}
+
+#work img {
+   border: solid whitesmoke 8px;
+    /*padding: 0 0 2px 2px;*/
+}
+
+#work a {
+    padding-left:33px;
+}
+
+
+/************ About **********************/
+
+#about h2 {
+    text-align: center;
+    padding: 15px 0 0 0;
+    color:#f2395a;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+  
+}
+
+#about .half-width {
+    padding-top: 35px;
+}
+
+#about p {
+    margin: 0;
+    padding: 0 80px 0 0;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: justify;
+    color:whitesmoke;
+}
+
+#about {
+    background-color:#ffa2a2;
+   
+}
+
+#about img {
+    border: solid whitesmoke 8px;
+    margin: 0 0 0 20px;
+    
+}
+
+#italic {
+    font-style: italic;
+}
+
+#about a {
+    text-decoration: none;
+    color:white;
+}
+
+
+
+/********** Contact ********************/
+ 
+#contact {
+    background-color:#cbcbcd;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#contact .half-width {
+    text-align:center;
+}
+
+#contact p, h2  {
+    text-align: center;
+    
+}
+
+
+#contact h2 {
+    margin-top: 0;
+    font-size:22px;
+    padding-top:45px;
+    font-family: 'Roboto Slab', serif;
+    color:#00394d;
+    
+}
+
+#contact p {
+    line-height:33px;
+    font-size: 20px;
+    color:#f2395a;
+}
+
+
+#contact ul li a {
+    color:#f2395a;
+    font-size:45px;
+    margin: 0;
+    padding:0 40px 0 0;
+    text-align: center;
+}
+
+#contact ul li {
+    display: inline-block;
+    text-align:center;
+    
+}
+
+#contact a {
+    color:#f2395a;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#contact img {
+    padding: 0 0 0 0;
+    border: solid whitesmoke 8px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+
+/************ Footer ************/
+
+footer {
+    margin:0;
+    padding:30px;
+    background-color: #cbcbcd;
+}
+
+footer p {
+    text-align: center;
+    color: #f2395a;
+    font-size: 16px;
+    margin:0px;
+    font-weight: bold;
+}
+
+ #back-to-top {
+    text-align: center; 
+    padding:10px; 
+    font-weight: bold;
+    float: right;
+    margin-top: -30px; 
+ color: #f2395a;}
+
+
+#back-to-top a {
+    text-decoration: none; 
+     color: #f2395a;
+}
